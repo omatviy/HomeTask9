@@ -1,0 +1,5 @@
+Использовались шрифты:
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,600&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">

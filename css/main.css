@@ -1,0 +1,203 @@
+body {
+  font-family: Roboto, Arial, Hevletica, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: relative;
+  height: 900px;
+  background: url("../9-session/img/hero-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 20px; 
+}
+
+.navigation
+{
+  position: relative;
+  height: 80px;
+  background-color: rgb(255, 235, 238);
+  opacity: 0.8;
+}
+
+.menu{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+ul{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+.menu>ul>li{
+ display: inline-block;
+ margin: 0 30px;
+ font-size: 16px;
+ position: relative;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+
+.menu>ul>li>a:hover{
+  border-bottom: 2px solid #aa5772;
+}
+
+.more_menu{
+  display: none;
+  width: 160px;
+  position: absolute;
+  background-color: #ccb9bc;
+}
+
+.more_menu li{
+  padding: 12px 16px;
+}
+
+.more_menu li:hover{
+  background-color: #ffebce;
+}
+
+.menu>ul>li:last-child:hover .more_menu {
+  display:block;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);   
+}
+
+h1{
+  font-size: 108px;
+  font-weight: 600;
+  color: #f48fb1;
+  line-height: 130px;  
+}
+
+main{
+  max-width:  1200px;
+  margin: 0 auto;
+}
+
+.card_1{
+  background: url("../9-session/img/shop0.jpg") no-repeat;
+}
+
+.card_2{
+  background: url("../9-session/img/shop1.jpg") no-repeat;
+}
+
+.card_3{
+  background: url("../9-session/img/shop2.jpg") no-repeat;
+}
+
+.card_4{
+  background: url("../9-session/img/shop3.jpg") no-repeat;
+}
+
+.card_5{
+  background: url("../9-session/img/shop4.jpg") no-repeat;
+}
+
+.card_6{
+  background: url("../9-session/img/shop5.jpg") no-repeat;
+}
+
+.card_7{
+  background: url("../9-session/img/shop6.jpg") no-repeat;
+}
+
+.card_8{
+  background: url("../9-session/img/shop7.jpg") no-repeat;
+}
+
+
+.card_1,
+.card_2,
+.card_3,
+.card_4,
+.card_5,
+.card_6,
+.card_7,
+.card_8{
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 298px;
+  height: 298px;
+  border: 1px solid #fff;
+  float: left;
+  font-family: cursive; 
+}
+
+.sale{
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  background-color: #fe525b;
+  z-index: 2;
+}
+
+.sale p{
+  color: #fff;
+  font-size: 15px;  
+}
+
+
+.sale p,
+.description_card,
+.description_card_title{
+  padding: 0;
+  margin: 0;
+}
+
+.sale p,
+.description_card_title{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);  
+   z-index: 1; 
+}
+
+.description_card{
+  display: none;
+  background-color: #fff;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.description_card_title p{
+  font-size: 24px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+main>div:hover{
+  opacity: 0.5;
+}
+
+main>div:hover .description_card{
+  display: block;
+}
+
+main::after{
+  content: '';
+  clear: both;
+  display: block;
+  margin-bottom: 100px; 
+}

@@ -1,0 +1,79 @@
+  097 30 24 262 Наталя Снятин Вовчківці
+
+  <div id="wrapper">
+
+    <div id="header">
+
+      <div class="top_banner">
+        <h1>Blog Name</h1>
+      </div>
+
+    </div>
+
+    <div id="page_content">
+     <div id="page_content_left" class="left_side_bar">
+
+      <div id="main_bar_1">
+        <h2>Title Heading</h2>
+        <p>Title description </p>
+        <div class="box">
+            <img src="picture/1.jpg" width="400" height="322" alt="альтернативный текст">
+        </div>
+        <p>Some text </p>
+      </div>
+
+      <div id="main_bar_2">
+          <h2>Title Heading</h2>
+          <p>Title description </p>
+          <div class="box">
+              <img src="picture/1.jpg" width="400" height="322" alt="альтернативный текст">
+          </div>
+          <p>Some text </p>
+        </div>
+      </div>
+     </div>
+    </div>
+      
+  
+
+    <div class="clear"></div>
+
+    <!--start footer from here-->
+    <div id="footer">
+        Footer
+    </div>
+
+
+/* Стили для оборачивающего блока элементов навигации сайдбара */
+.left_side_bar {
+  padding: 10px 5px;
+  border: black solid 2px;
+}
+
+/* Стили для заголовка внутри блока левого сайдбара */
+#page_content .left_side_bar h2 {
+  font-size: 18px;
+  padding: 0 0 0 0px;
+  margin-bottom: 15px;
+  color: #1b0400;
+  border-style: solid;
+  border-width: 2px;
+}
+
+
+/* Стили для общего оборачивающего блока для правой части блока контента  */
+#page_content #page_content_right .right_side_bar {
+  /*width: 410px;*/
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: right;
+  padding: 0px 0 20px 0;
+}
+
+
+
+/*---- Конец блока контента ----*/
+
+    
+
+  </div>
